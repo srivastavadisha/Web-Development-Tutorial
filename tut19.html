@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height,Width,Borders and Background</title>
+    <style>
+        #firstpara{
+            background-color: aqua;
+            height: 100px;
+            width: 455px;
+            border: 4px solid green;
+            /* border-width: 4px;
+            border-color: green;
+            border-style: solid; */
+            border-radius: 130px;
+        }
+        #secondpara{
+            background-color: aqua;
+            height: 100px;
+            width: 455px;
+            border-top:11px solid red;
+            border-left: 11px solid hotpink;
+            border-right: 11px solid blue;
+            border-bottom: 11px solid green;
+            border-bottom-right-radius: 24px;
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 10px;
+        }
+        #thirdpara{
+            height: 1000px;
+            width: 1000px;
+            background-image: url('https://universemagazine.com/wp-content/uploads/2022/06/0-1-1024x683.jpg');
+            border: 2px solid red;
+            background-repeat: no-repeat;  /*repeat-x and repeat-y will make it repeat on x and y axis */
+            /* background-position: 192px 34px;*/
+            background-position: center center;
+             /*background-position: bottom right;
+            background-position: top center;*/
+        }
+    </style>
+</head>
+<body>
+      <h3>This is heading</h3>
+      <p id="firstpara">This is first paragraph.</p>
+      <h3>This is second heading</h3>
+      <p id="secondpara">This is second paragraph.</p>
+      <h3>This is third heading</h3>
+      <p id="thirdpara">This is third para.</p>
+    </body>
+</html>
