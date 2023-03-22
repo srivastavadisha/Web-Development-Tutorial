@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays and Objects</title>
+</head>
+<body>
+    <div class="container">simple si html</div>
+    <script>
+        //let myVar=34;
+        // let myVar2="string";
+        // let myVar3=true;
+        // let myVar4=null;
+        // let myVar5=undefined;
+
+        // let employee={
+        //     name:"Harry",
+        //     salary:10,
+        //     channel:"CodeWithHarry",
+        //     "channel 2" :"ProgrammingWithHarry",   //here if we give space b/w channel and 2 then we have to write chnnel 2 in "".  also we wil find the value of this key by notation employee['channel 2']. if we use employee.channel 2 for key which have spaces like here b/w channel and 2 then it will show error.
+        // }
+        // console.log(employee);  
+
+        //let names = [1,2,4,"Disha",undefined];
+        let names = new Array(41,2,4,"Disha","undefined");
+        //let names = new Array(23);   //it means there are 23 free spaces   
+        console.log(names.length);
+        names=names.sort();
+        names.push("this is pushed");
+        console.log(names);
+    </script>
+</body>
+</html>
